@@ -1,0 +1,16 @@
+{
+  "name": "imperial-hotel-website",
+  "version": "1.0.0",
+  "description": "Premium boutique guest house website",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": ["hotel", "static-site"],
+  "author": "The Imperial Guest House",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  }
+}
