@@ -1,0 +1,541 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotel Imperial | Premium Boutique Hotel in Karachi</title>
+  <meta name="description" content="Experience luxury and comfort at Hotel Imperial, Karachi. Premium rooms, exceptional hospitality, and unforgettable stays in the heart of the city." />
+  <meta property="og:title" content="Hotel Imperial | Premium Boutique Hotel in Karachi" />
+  <meta property="og:description" content="Premium rooms, exceptional hospitality, and unforgettable stays in the heart of Karachi." />
+  <meta property="og:type" content="website" />
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link rel="stylesheet" href="index.css?v=26" />
+</head>
+<body>
+
+  <!-- Skip link for keyboard users -->
+  <a href="#main-content" class="sr-only">Skip to main content</a>
+
+  <!-- ========== LOADING SCREEN ========== -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader-logo">
+      <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="12" y1="21" x2="12" y2="23" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="1" y1="12" x2="3" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="21" y1="12" x2="23" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      Hotel Imperial
+    </div>
+    <div class="loader-bar"></div>
+  </div>
+
+    <!-- Top Bar -->
+  <div style="background:linear-gradient(to right, #047857, #059669); color:#fff; padding:0.5rem 1rem; font-size:0.875rem; display:flex; justify-content:space-between; align-items:center; z-index:50; position:relative;" class="top-bar-hidden-mobile">
+    <div style="display:flex; align-items:center; gap:0.5rem">
+      <svg viewBox="0 0 24 24" fill="currentColor" style="width:14px;height:14px;color:#fbbf24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      <span>Hotel Imperial Karachi - Luxury, Comfort & Hospitality | 4.7 / 5 (120+ Reviews)</span>
+    </div>
+    <a href="https://wa.me/923391703117" target="_blank" style="background:#fff; color:#0f172a; padding:0.25rem 1rem; border-radius:9999px; font-weight:600; text-decoration:none; transition:all 0.2s" onmouseover="this.style.background='#e2e8f0'" onmouseout="this.style.background='#fff'">Book on WhatsApp</a>
+  </div>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar transparent" id="navbar" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <div class="nav-logo-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </div>
+        <div class="nav-logo-text">Hotel Imperial</div>
+      </a>
+      <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="rooms.html">Rooms</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="location.html">Location</a>
+        <a href="https://wa.me/923391703117?text=Hi%2C%20I%20would%20like%20to%20book%20a%20room%20at%20The%20Imperial%20Guest%20House." target="_blank" class="nav-cta">Book Now</a>
+      </div>
+      
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <div class="mobile-nav" id="mobileNav" role="dialog" aria-label="Mobile navigation">
+    <a href="about.html" class="mobile-link">About</a>
+    <a href="rooms.html" class="mobile-link">Rooms</a>
+    <a href="gallery.html" class="mobile-link">Gallery</a>
+    <a href="location.html" class="mobile-link">Location</a>
+    <a href="https://wa.me/923391703117?text=Hi%2C%20I%20would%20like%20to%20book%20a%20room%20at%20The%20Imperial%20Guest%20House." target="_blank" class="mobile-link nav-cta" style="margin-top:1rem">Book Now</a>
+  </div>
+
+  <main id="main-content">
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="images/exterior-day.jpg"
+           alt="Hotel Imperial exterior with lush garden and modern architecture"
+           width="1920" height="1080" loading="eager" fetchpriority="high" />
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1 class="hero-title">Where Every<br/><em>Moment</em> Feels<br/>Like Home</h1>
+      <p class="hero-desc">Discover an oasis of warmth and luxury in the heart of Karachi. Impeccable hospitality, thoughtfully designed rooms, and a stay that feels imperial.</p>
+      <div class="hero-actions">
+        <a href="#rooms" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          Explore Rooms
+        </a>
+        <a href="#about" class="btn btn-outline">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+          Our Story
+        </a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <a href="https://www.google.com.pk/travel/search?q=imperial%20guest%20house%20karachi&g2lb=4965990%2C72471280%2C72560029%2C72573224%2C72647020%2C72686036%2C72803964%2C72882230%2C73064764%2C121529350%2C121738283%2C121762713&hl=en-PK&gl=pk&ssta=1&ts=CAESCgoCCAMKAggDEAAaHhIcEhQKBwjqDxAHGBoSBwjqDxAHGBsYATIECAAQACoHCgU6A1BLUg&qs=CAEyE0Nnb0kxYUxlcVpid2c1Z2VFQUU4CEIJEYCEHNziShUvQgkRxQQ7uK_PKdNaAggBahwKGg2kZeVFEhMI2rDVlrXalQMVYtpaBB04ISu3&ap=ugEIb3ZlcnZpZXc&ictx=111" target="_blank" class="hero-stat-card hover-glow" style="text-decoration:none;color:inherit;cursor:pointer"><div class="stat-num">4.7 <span style="font-size:0.8em;color:#f59e0b">&#9733;</span></div><div class="stat-label">Rated on Google</div></a>
+      <div class="hero-stat-card"><div class="stat-num">500+</div><div class="stat-label">Happy Guests</div></div>
+      <div class="hero-stat-card"><div class="stat-num">24/7</div><div class="stat-label">Front Desk</div></div>
+    </div>
+    <div class="hero-scroll"><span>Scroll</span><div class="scroll-line"></div></div>
+  </section>
+
+  <!-- ========== BOOKING BAR ========== -->
+  <section class="booking-bar" id="booking" aria-label="Room booking">
+    <div class="container">
+      <div class="booking-card anim-up">
+        <div class="booking-field">
+          <label for="checkin">Check In</label>
+          <input type="date" id="checkin" />
+        </div>
+        <div class="booking-field">
+          <label for="checkout">Check Out</label>
+          <input type="date" id="checkout" />
+        </div>
+        <div class="booking-field">
+          <label for="guests">Guests</label>
+          <select id="guests"><option>1 Guest</option><option>2 Guests</option><option>3 Guests</option><option>4 Guests</option></select>
+        </div>
+        <div class="booking-field">
+          <label for="roomtype">Room Type</label>
+          <select id="roomtype"><option>Standard Room</option><option>Deluxe Room</option><option>Family Room</option></select>
+        </div>
+        <button class="btn-book" id="bookBtn">Check Availability</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT (Asymmetric) ========== -->
+  <section class="about section-pad" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image anim-up">
+          <img src="images/garden-evening.jpg"
+               alt="Hotel Imperial garden at night with warm ambient lighting" width="900" height="600" loading="lazy" />
+        </div>
+        <div class="about-text anim-slide-right">
+          <div class="section-label">Our Story</div>
+          <h2 class="section-title anim-clip">A Warm Welcome<br/>Awaits You</h2>
+          <p>Hotel Imperial stands as a beacon of comfort and hospitality in Karachi. Since our establishment, we have been dedicated to providing guests with an experience that transcends ordinary accommodation.</p>
+          <p>Nestled in a prime location, our hotel combines modern amenities with the warmth of traditional Pakistani hospitality. Every detail has been thoughtfully curated to ensure your stay is nothing short of exceptional.</p>
+          <div class="about-highlights">
+            <div class="highlight-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Free WiFi</div>
+            <div class="highlight-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Air Conditioning</div>
+            <div class="highlight-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Room Service</div>
+            <div class="highlight-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Free Parking</div>
+            <div class="highlight-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Flat-screen TV</div>
+            <div class="highlight-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Daily Housekeeping</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ROOMS (Mobile Carousel) ========== -->
+  <section class="rooms section-pad" id="rooms">
+    <div class="container">
+      <div class="text-center">
+        <div class="section-label anim-up" style="justify-content:center">Accommodations</div>
+        <h2 class="section-title anim-clip">Our Premium Rooms</h2>
+        <p class="section-subtitle anim-up">Each room is designed to provide the perfect balance of luxury and comfort, ensuring a restful and memorable stay.</p>
+      </div>
+      <div class="rooms-grid stagger">
+        <div class="room-card anim-card hover-scale hover-glow">
+          <div class="room-card-img">
+            <img src="images/standard-room.jpg" alt="Standard Room with brown headboard and white bedding" width="700" height="467" loading="lazy" />
+          </div>
+          <div class="room-card-body">
+            <h3>Standard Room</h3>
+            <p>Comfortable and well-equipped room perfect for solo travellers and short business trips.</p>
+            <div class="room-amenities">
+              <span class="room-amenity"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"/><polyline points="17 2 12 7 7 2"/></svg>TV</span>
+              <span class="room-amenity"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>WiFi</span>
+              <span class="room-amenity"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/></svg>AC</span>
+            </div>
+            <a href="https://wa.me/923391703117?text=Hi%2C%20I%20would%20like%20to%20book%20a%20Standard%20Room%20at%20Hotel%20Imperial." target="_blank" class="btn-room">Book This Room</a>
+          </div>
+        </div>
+        <div class="room-card anim-card hover-scale hover-glow">
+          <div class="room-card-img">
+            <img src="images/deluxe-room.jpg" alt="Deluxe Room with pink headboard, sofa and flat-screen TV" width="700" height="467" loading="lazy" />
+          </div>
+          <div class="room-card-body">
+            <h3>Deluxe Room</h3>
+            <p>Spacious room with sofa, work desk, and premium amenities for a truly relaxing experience.</p>
+            <div class="room-amenities">
+              <span class="room-amenity"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"/><polyline points="17 2 12 7 7 2"/></svg>TV</span>
+              <span class="room-amenity"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>WiFi</span>
+              <span class="room-amenity"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/></svg>AC</span>
+              <span class="room-amenity"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>Sofa</span>
+            </div>
+            <a href="https://wa.me/923391703117?text=Hi%2C%20I%20would%20like%20to%20book%20a%20Deluxe%20Room%20at%20Hotel%20Imperial." target="_blank" class="btn-room">Book This Room</a>
+          </div>
+        </div>
+        <div class="room-card anim-card hover-scale hover-glow">
+          <div class="room-card-img">
+            <img src="images/twin-standard-room.jpg" alt="Twin Standard Room with two single beds and blue curtains" width="700" height="467" loading="lazy" />
+          </div>
+          <div class="room-card-body">
+            <h3>Twin Standard Room</h3>
+            <p>Two comfortable single beds ideal for friends, colleagues, or family members travelling together.</p>
+            <div class="room-amenities">
+              <span class="room-amenity"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"/><polyline points="17 2 12 7 7 2"/></svg>TV</span>
+              <span class="room-amenity"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>WiFi</span>
+              <span class="room-amenity"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/></svg>AC</span>
+            </div>
+            <a href="https://wa.me/923391703117?text=Hi%2C%20I%20would%20like%20to%20book%20a%20Twin%20Standard%20Room%20at%20Hotel%20Imperial." target="_blank" class="btn-room">Book This Room</a>
+          </div>
+        </div>
+        <div class="room-card anim-card hover-scale hover-glow">
+          <div class="room-card-img">
+            <img src="images/family-room.jpg" alt="Family Room with double and single bed, blue sofa, spacious layout" width="700" height="467" loading="lazy" />
+          </div>
+          <div class="room-card-body">
+            <h3>Family Room</h3>
+            <p>Our largest accommodation with multiple beds and seating area, perfect for families.</p>
+            <div class="room-amenities">
+              <span class="room-amenity"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"/><polyline points="17 2 12 7 7 2"/></svg>TV</span>
+              <span class="room-amenity"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>WiFi</span>
+              <span class="room-amenity"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/></svg>AC</span>
+              <span class="room-amenity"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>Sofa</span>
+            </div>
+            <a href="https://wa.me/923391703117?text=Hi%2C%20I%20would%20like%20to%20book%20a%20Family%20Room%20at%20Hotel%20Imperial." target="_blank" class="btn-room">Book This Room</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== AMENITIES (3D Flip Cards) ========== -->
+  <section class="amenities section-pad" id="amenities">
+    <div class="container">
+      <div class="text-center">
+        <div class="section-label anim-up" style="justify-content:center">What We Offer</div>
+        <h2 class="section-title anim-clip" style="color:#fff"> Amenities</h2>
+        <p class="section-subtitle anim-up" style="color:rgba(255,255,255,0.55)">Everything you need for a comfortable and memorable stay, all under one roof.</p>
+      </div>
+      <div class="amenities-grid stagger">
+        <div class="amenity-card anim-flip hover-scale hover-glow"><div class="amenity-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg></div><h4>High-Speed WiFi</h4><p>Stay connected with complimentary high-speed wireless internet throughout the property.</p></div>
+        <div class="amenity-card anim-flip hover-scale hover-glow"><div class="amenity-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 17V7h4a3 3 0 0 1 0 6H9"/></svg></div><h4>Free Parking</h4><p>Secure on-site parking available for all guests at no additional charge.</p></div>
+        <div class="amenity-card anim-flip hover-scale hover-glow"><div class="amenity-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg></div><h4>Room Service</h4><p>Enjoy delicious Pakistani and continental cuisine delivered right to your room.</p></div>
+        <div class="amenity-card anim-flip hover-scale hover-glow"><div class="amenity-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg></div><h4>Climate Control</h4><p>Individually controlled air conditioning in every room for your perfect comfort.</p></div>
+        <div class="amenity-card anim-flip hover-scale hover-glow"><div class="amenity-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg></div><h4>24/7 Front Desk</h4><p>Our dedicated staff is always available to assist you with any requests.</p></div>
+        <div class="amenity-card anim-flip hover-scale hover-glow"><div class="amenity-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div><h4>Daily Housekeeping</h4><p>Fresh linens and meticulous room cleaning every day during your stay.</p></div>
+        <div class="amenity-card anim-flip hover-scale hover-glow"><div class="amenity-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div><h4>Airport Transfer</h4><p>Convenient airport pickup and drop-off service arranged upon request.</p></div>
+        <div class="amenity-card anim-flip hover-scale hover-glow"><div class="amenity-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.38 3.46L16 2 12 3.46 8 2 3.62 3.46a2 2 0 0 0-1.34 1.89v13.3a2 2 0 0 0 1.34 1.89L8 22l4-1.46L16 22l4.38-1.46a2 2 0 0 0 1.34-1.89V5.35a2 2 0 0 0-1.34-1.89z"/><line x1="12" y1="3.46" x2="12" y2="20.54"/></svg></div><h4>Laundry Service</h4><p>Professional laundry and dry-cleaning service available for all guests.</p></div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="testimonials section-pad" id="testimonials">
+    <div class="container">
+      <div class="text-center">
+        <div class="section-label anim-up" style="justify-content:center">Guest Reviews</div>
+        <h2 class="section-title anim-clip">What Our Guests Say</h2>
+        <p class="section-subtitle anim-up">Real experiences from real guests who made Hotel Imperial their home away from home.</p>
+        <a href="https://www.google.com.pk/travel/search?q=imperial%20guest%20house%20karachi&g2lb=4965990%2C72471280%2C72560029%2C72573224%2C72647020%2C72686036%2C72803964%2C72882230%2C73064764%2C121529350%2C121738283%2C121762713&hl=en-PK&gl=pk&ssta=1&ts=CAESCgoCCAMKAggDEAAaHhIcEhQKBwjqDxAHGBoSBwjqDxAHGBsYATIECAAQACoHCgU6A1BLUg&qs=CAEyE0Nnb0kxYUxlcVpid2c1Z2VFQUU4CEIJEYCEHNziShUvQgkRxQQ7uK_PKdNaAggBahwKGg2kZeVFEhMI2rDVlrXalQMVYtpaBB04ISu3&ap=ugEIb3ZlcnZpZXc&ictx=111" target="_blank" style="display:inline-flex;align-items:center;gap:0.5rem;background:#059669;color:#fff;padding:0.6rem 1.5rem;border-radius:2rem;font-weight:600;text-decoration:none;margin-top:1rem;transition:all 0.3s ease" class="hover-glow">? 4.7 Rated — Read Reviews on Google</a>
+      </div>
+            <div class="testimonials-slider stagger">
+        <div class="testimonial-card anim-card hover-scale hover-glow">
+          <div class="testimonial-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+          <p class="testimonial-text">"Bilkul zabardast jagah hai! Room bilkul saaf suthra tha, AC perfect chal raha tha aur staff ne humein poora khayaal rakha. Nashta bhi bohat acha tha. Zaroor dobara aaunga InShaAllah."</p>
+          <div class="testimonial-author"><div class="testimonial-avatar">AH</div><div class="testimonial-author-info"><h5>Adeel Hussain</h5><span>Business Trip - Islamabad</span></div></div>
+        </div>
+        
+        <div class="testimonial-card anim-card hover-scale hover-glow">
+          <div class="testimonial-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+          <p class="testimonial-text">"Family ke saath 3 din ruke aur experience bohat acha raha. Bachon ke liye family room liya tha - kaafi spacious tha. DHA mein location bhi perfect hai, khaana order kiya toh time pe aa gaya. Highly recommended for families!"</p>
+          <div class="testimonial-author"><div class="testimonial-avatar">SN</div><div class="testimonial-author-info"><h5>Sana Nadeem</h5><span>Family Trip - Lahore</span></div></div>
+        </div>
+
+        <div class="testimonial-card anim-card hover-scale hover-glow">
+          <div class="testimonial-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+          <p class="testimonial-text">"Bahut achi jagah hai yaar! Mein solo travel karta hoon aur yahan standard room liya - clean, comfortable aur budget friendly. Staff bohat cooperative hai. DHA Phase 2 mein milna bhi easy hai. 10/10 recommend karta hoon."</p>
+          <div class="testimonial-author"><div class="testimonial-avatar">FA</div><div class="testimonial-author-info"><h5>Farhan Ali</h5><span>Solo Travel - Multan</span></div></div>
+        </div>
+
+        <div class="testimonial-card anim-card hover-scale hover-glow">
+          <div class="testimonial-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+          <p class="testimonial-text">"Outstanding service and very cooperative staff. The rooms are spacious and well-maintained. Highly recommended for family stays."</p>
+          <div class="testimonial-author"><div class="testimonial-avatar">FA</div><div class="testimonial-author-info"><h5>Farhan A.</h5><span>Family Trip - Karachi</span></div></div>
+        </div>
+
+        <div class="testimonial-card anim-card hover-scale hover-glow">
+          <div class="testimonial-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+          <p class="testimonial-text">"Located securely in DHA, this hotel provided everything we needed. Safe environment, great breakfast, and comfortable bedding."</p>
+          <div class="testimonial-author"><div class="testimonial-avatar">SK</div><div class="testimonial-author-info"><h5>Sadia K.</h5><span>Business Trip - Lahore</span></div></div>
+        </div>
+
+        <div class="testimonial-card anim-card hover-scale hover-glow">
+          <div class="testimonial-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+          <p class="testimonial-text">"Excellent value for money. The location is perfect for business travelers, and the Wi-Fi speed was very impressive."</p>
+          <div class="testimonial-author"><div class="testimonial-avatar">UM</div><div class="testimonial-author-info"><h5>Usman M.</h5><span>Solo Travel - Islamabad</span></div></div>
+        </div>
+      </div></div>
+    </div>
+</section>
+
+  <!-- ========== LOCATION ========== -->
+  <section class="location section-pad" id="location">
+    <div class="container">
+      <div class="location-grid">
+        <div class="location-info anim-slide-left">
+          <div class="section-label">Find Us</div>
+          <h2 class="section-title anim-clip">Our Location</h2>
+          <div class="location-detail"><div class="location-detail-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div><div><h4>Address</h4><p>4b 3rd Central Ln, D.H.A. Phase 2,<br/>Karachi, Pakistan</p></div></div>
+          <div class="location-detail"><div class="location-detail-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div><div><h4>Phone</h4><p><a href="tel:+923329786784" style="color:var(--clr-accent);text-decoration:none">+92 332 978 6784</a></p></div></div>
+          <div class="location-detail"><div class="location-detail-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div><div><h4>Email</h4><p>info@hotelimperialkarachi.com</p></div></div>
+          <div class="location-detail"><div class="location-detail-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div><h4>Check-in / Check-out</h4><p>Check-in: 2:00 PM - Check-out: 12:00 PM</p></div></div>
+        </div>
+                <div class="location-map-container anim-slide-right" style="display: flex; flex-direction: column; gap: 2rem;">
+          
+          <div style="background:var(--clr-card); padding:1rem; border-radius:1rem; box-shadow:0 10px 30px rgba(0,0,0,.1)">
+            <h4 style="font-size:1.1rem; color:var(--clr-accent); margin-bottom:0.5rem;">Hotel Imperial DHA</h4>
+            <div style="border-radius:0.5rem; overflow:hidden;">
+              <iframe src="https://maps.google.com/maps?q=24.8386675,67.0593535&hl=en&z=17&output=embed" width="100%" height="220" style="border:0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Hotel Imperial DHA Location"></iframe>
+            </div>
+            <div style="text-align:center; margin-top:1rem;">
+              <a href="https://maps.app.goo.gl/rmVuMLzBR8GaxzFz9" target="_blank" class="hover-glow" style="display:inline-flex; align-items:center; background:#059669; color:#fff; padding:0.5rem 1.2rem; border-radius:2rem; font-size:0.85rem; font-weight:600; text-decoration:none;">View on Google Maps</a>
+            </div>
+          </div>
+
+          <div style="background:var(--clr-card); padding:1rem; border-radius:1rem; box-shadow:0 10px 30px rgba(0,0,0,.1)">
+            <h4 style="font-size:1.1rem; color:var(--clr-accent); margin-bottom:0.5rem;">Hotel Imperial PECHS</h4>
+            <div style="border-radius:0.5rem; overflow:hidden;">
+              <iframe src="https://maps.google.com/maps?q=24.8576806,67.0629219&hl=en&z=17&output=embed" width="100%" height="220" style="border:0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Hotel Imperial PECHS Location"></iframe>
+            </div>
+            <div style="text-align:center; margin-top:1rem;">
+              <a href="https://www.google.com/maps/place/Plot+7+J,+Plot+7+J,+Block+6+PECHS,+Karachi,+Pakistan/@24.8576806,67.0629219,17z/data=!3m1!4b1!4m5!3m4!1s0x3eb33e9dca61d191:0xd4b1e2ea02e8722d!8m2!3d24.8576806!4d67.0629219!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDcxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="hover-glow" style="display:inline-flex; align-items:center; background:#059669; color:#fff; padding:0.5rem 1.2rem; border-radius:2rem; font-size:0.85rem; font-weight:600; text-decoration:none;">View on Google Maps</a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA ========== -->
+  <section class="cta-banner">
+    <div class="container">
+      <div class="cta-content anim-zoom">
+        <h2>Ready for an<br/><em style="color:var(--clr-accent);font-weight:400">Unforgettable</em> Stay?</h2>
+        <p>Book your room today and experience the warmth of Hotel Imperial. Special rates available for extended stays.</p>
+        <div class="cta-actions">
+          <a href="#booking" class="btn btn-primary">Book Your Room</a>
+          <a href="tel:+923329786784" class="btn btn-outline"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>Call Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo-text">Hotel Imperial<span> · Karachi</span></div>
+          <p>Your home away from home in the heart of Karachi. Experience premium hospitality, modern comfort, and warm Pakistani welcome at Hotel Imperial.</p>
+          <div class="footer-socials">
+            <a href="https://www.facebook.com/share/192G5pyxNk/" target="_blank" class="footer-social-link" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+            <a href="https://www.instagram.com/imperialguesthousedha?igsh=MXAzZzg5dzU3bjR1cg==" target="_blank" class="footer-social-link" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" fill="none" stroke="currentColor" stroke-width="2"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></a>
+            <a href="https://wa.me/923391703117" target="_blank" class="footer-social-link" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.194.797-.767.966-.94 1.164-.173.199-.344.723-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col"><h4>Quick Links</h4><a href="about.html">About Us</a><a href="rooms.html">Our Rooms</a><a href="gallery.html">Gallery</a><a href="location.html">Location</a></div>
+        <div class="footer-col"><h4>Contact</h4><a href="tel:+923391703117">+92 339 170 3117</a><br/><a href="tel:+923135868815">+92 313 586 8815</a><a href="https://wa.me/923391703117" target="_blank">WhatsApp Us</a><a href="mailto:info@hotelimperialkarachi.com">info@hotelimperialkarachi.com</a><a href="location.html">Directions</a></div></div>
+      <div class="footer-bottom" style="text-align:center"><p>&copy; 2026 Hotel Imperial. All rights reserved.</p><p style="margin-top:0.5rem;font-size:0.85rem;opacity:0.6">Crafted by <a href="https://www.probsolvtech.agency" target="_blank" style="color:var(--clr-accent);text-decoration:none;font-weight:600">MEHDI HASSAN</a></p></div>
+    </div>
+  </footer>
+
+  <!-- Sticky mobile CTA -->
+  <div class="mobile-sticky-cta" id="mobileCta">
+    <a href="#booking" class="btn btn-primary">Book Your Stay</a>
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()" role="dialog" aria-label="Image preview">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <img id="lightboxImg" src="" alt="Gallery preview" />
+  </div>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/923391703117?text=Hi%2C%20I%20would%20like%20to%20inquire%20about%20The%20Imperial%20Guest%20House." target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.194.797-.767.966-.94 1.164-.173.199-.344.723-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script>
+    // ====== Theme Toggle ======
+    (function() {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+
+    // ====== Loading Screen ======
+    window.addEventListener('load', () => {
+      setTimeout(() => document.getElementById('loader').classList.add('hidden'), 1000);
+    });
+
+    // ====== Navbar ======
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 80) {
+        navbar.classList.remove('transparent');
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+        navbar.classList.add('transparent');
+      }
+    }, { passive: true });
+
+    // ====== Mobile nav ======
+    const hamburger = document.getElementById('hamburger');
+    const mobileNav = document.getElementById('mobileNav');
+    hamburger.addEventListener('click', () => {
+      const isOpen = mobileNav.classList.toggle('open');
+      hamburger.classList.toggle('active');
+      hamburger.setAttribute('aria-expanded', isOpen);
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    });
+    document.querySelectorAll('.mobile-link').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        mobileNav.classList.remove('open');
+        hamburger.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+      });
+    });
+
+    // ====== Scroll animations (IntersectionObserver) ======
+    const animEls = document.querySelectorAll('.anim-up, .anim-clip, .anim-slide-left, .anim-slide-right, .anim-card, .anim-flip, .anim-wipe, .anim-zoom');
+    const animObserver = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+    animEls.forEach(el => animObserver.observe(el));
+
+    // ====== Smooth scroll ======
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+
+    // ====== Lightbox ======
+    function openLightbox(el) {
+      document.getElementById('lightboxImg').src = el.querySelector('img').src;
+      document.getElementById('lightbox').classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeLightbox() {
+      document.getElementById('lightbox').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+
+    // ====== Back to top + Mobile sticky CTA ======
+    const backToTop = document.getElementById('backToTop');
+    const mobileCta = document.getElementById('mobileCta');
+    window.addEventListener('scroll', () => {
+      const y = window.scrollY;
+      backToTop.classList.toggle('visible', y > 600);
+      if (mobileCta) mobileCta.classList.toggle('show', y > 400);
+    }, { passive: true });
+    backToTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    // ====== Default dates ======
+    const today = new Date();
+    const tomorrow = new Date(today);
+    tomorrow.setDate(tomorrow.getDate() + 1);
+    const fmt = d => d.toISOString().split('T')[0];
+    document.getElementById('checkin').value = fmt(today);
+    document.getElementById('checkout').value = fmt(tomorrow);
+
+    // ====== Hero parallax ======
+    window.addEventListener('scroll', () => {
+      const bg = document.querySelector('.hero-bg img');
+      if (bg && window.scrollY < window.innerHeight) {
+        bg.style.transform = `scale(1.05) translateY(${window.scrollY * 0.12}px)`;
+      }
+    }, { passive: true });
+
+    // ====== Counter animation ======
+    function animateCounter(el, target, suffix = '') {
+      let cur = 0;
+      const inc = target / 50;
+      const timer = setInterval(() => {
+        cur += inc;
+        if (cur >= target) { cur = target; clearInterval(timer); }
+        el.textContent = (Number.isInteger(target) ? Math.floor(cur) : cur.toFixed(1)) + suffix;
+      }, 20);
+    }
+    const statsObs = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.querySelectorAll('.hero-stat-card').forEach(card => {
+            const n = card.querySelector('.stat-num');
+            const t = n.textContent.trim();
+            if (t === '4.7') animateCounter(n, 4.7);
+            else if (t.includes('500')) animateCounter(n, 500, '+');
+          });
+          statsObs.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.5 });
+    const hs = document.querySelector('.hero-stats');
+    if (hs) statsObs.observe(hs);
+
+    // ====== Room card tilt ======
+    document.querySelectorAll('.room-card').forEach(card => {
+      card.addEventListener('mousemove', e => {
+        const r = card.getBoundingClientRect();
+        const rx = (e.clientY - r.top - r.height/2) / 25;
+        const ry = (r.width/2 - (e.clientX - r.left)) / 25;
+        card.style.transform = `perspective(1000px) rotateX(${rx}deg) rotateY(${ry}deg) translateY(-6px)`;
+      });
+      card.addEventListener('mouseleave', () => { card.style.transform = ''; });
+    });
+
+    // ====== Booking button ? WhatsApp ======
+    document.getElementById('bookBtn').addEventListener('click', () => {
+      const btn = document.getElementById('bookBtn');
+      btn.textContent = 'Redirecting to Booking.com...';
+      btn.style.background = 'linear-gradient(135deg, #059669, #047857)';
+      setTimeout(() => {
+        window.open('https://www.booking.com/hotel/pk/new-imperial-dha.en-gb.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaLUBiAECmAEzuAEJyAER2AED6AEB-AEBiAIBqAIBuALc4cjSBsACAdICJGJjNDY1MDVhLTU1OWUtNDFlMS1iMmIxLTAzZTNhMDZhOGM0MtgCAeACAQ&sid=0e6e60c8fa1ce2ff7e6134ec76e2183d&all_sr_blocks=1339910001_418550661_0_1_0&checkin=2026-07-26&checkout=2026-07-27&dest_id=13399100&dest_type=hotel&dist=0&group_adults=1&group_children=0&hapos=1&highlighted_blocks=1339910001_418550661_0_1_0&hpos=1&matching_block_id=1339910001_418550661_0_1_0&no_rooms=1&req_adults=1&req_children=0&room1=A&sb_price_type=total&sr_order=popularity&sr_pri_blocks=1339910001_418550661_0_1_0__670000&srepoch=1784409826&srpvid=fb38966e790501fb&type=total&ucfs=1&chal_t=1784451030862&force_referer=', '_blank');
+        btn.textContent = 'Check Availability';
+        btn.style.background = '';
+      }, 800);
+    });
+  </script>
+
+</body>
+</html>
